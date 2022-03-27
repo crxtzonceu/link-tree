@@ -1,0 +1,52 @@
+body {
+    background: #F2AF29;
+    background: linear-gradient(
+        0deg,
+        #a9b3b9,
+        #24313f
+    );
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.profilePic {
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 250px;
+}
+.name h3 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Source Serif 4', Georgia, Arial, Helvetica;
+    font-size: 3rem;
+    color: white;
+}
+
+section a {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 2px solid black;
+    background: #614385;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fdf030;
+    margin: 30px;
+    padding: 30px;
+}
+
+a:hover {
+    transform: scale(1.02);
+    -webkit-box-shadow: 10px 10px 9px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 9px 1px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 9px 1px rgba(0,0,0,0.75);
+}
